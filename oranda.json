@@ -11,7 +11,7 @@
         "favicon": "https://www.axo.dev/favicon.ico"
     },
     "build": {
-        "path_prefix": "aws-keychain",
+        "path_prefix": "binary-zone",
         "additional_pages": {
             "Register Account": "./registration.md"
         }
