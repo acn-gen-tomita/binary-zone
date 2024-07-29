@@ -1,0 +1,19 @@
+{
+    "project": {
+        "name": "aws-keychain",
+        "description": "A simple, lightweight, and fast static site generator.",
+        "version": "0.2.0",
+        "license": "MIT",
+        "repository": "https://github.com/acn-gen-tomita/binary-zone"
+    },
+    "styles": {
+        "theme": "axolight",
+        "favicon": "https://www.axo.dev/favicon.ico"
+    },
+    "build": {
+        "path_prefix": "aws-keychain",
+        "additional_pages": {
+            "Register Account": "./registration.md"
+        }
+    }
+}
