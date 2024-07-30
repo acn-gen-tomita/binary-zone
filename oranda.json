@@ -11,9 +11,11 @@
         "favicon": "https://www.axo.dev/favicon.ico"
     },
     "build": {
-        "path_prefix": "binary-zone",
-        "additional_pages": {
-            "Register Account": "./registration.md"
+        "path_prefix": "binary-zone"
+    },
+    "components": {
+        "mdbook": {
+            "path": "./docs"
         }
     }
 }
