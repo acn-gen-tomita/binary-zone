@@ -2,7 +2,7 @@
 
 ### Register
 
-Register a new AWS account.
+Register a new AWS account. See [Setup Login](./book/registration.html) for more information.
 
 ```sh
 aws-keychain register --qr-path <path> --txt-path <path>
@@ -21,8 +21,10 @@ aws-keychain login -n <name> -d <delay_in_seconds>
 List all registered AWS accounts
 
 ```sh
-aws-keychain list
+aws-keychain list --details
 ```
+
+- `--details` optional flag to shows the details of the account.
 
 ### Remove
 
@@ -54,3 +56,14 @@ aws-keychain config
 ```sh
 aws-keychain config --delay 5 # Wait for 5 seconds opening the login page
 ```
+
+### Completion
+
+Emits shell completion script for the specified shell. See [Completion](./book/completion.html) for more information.
+
+```sh
+aws-keychain completion --shell <shell> > --directory <path>
+```
+
+- `<shell>` is the name of the shell you are using (e.g. `bash`, `zsh`, `fish`, `elvish`).
+- `<path>` is optional. If given, the completion script is placed in the directory. For bash or elvish, the script is appended to the file. If not given, the script is printed to stdout.
