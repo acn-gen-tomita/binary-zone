@@ -6,11 +6,11 @@
 
 ## Installation
 
-See the landing page for installation instructions: [here](https://acn-gen-tomita/binary-zone)
+See the landing page for installation instructions: [here](https://acn-gen-tomita.github.io/binary-zone)
 
 ## Usage
 
-Also available on the landing page: [here](https://acn-gen-tomita/binary-zone)
+Also available on the landing page: [here](https://acn-gen-tomita.github.io/binary-zone)
 
 ## About Account Registration
 
