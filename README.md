@@ -46,6 +46,7 @@ aws-keychain edit
 
 Update the configuration.
 This is useful to add extra delay when opening the login page.
+Note that there is a default delay of 10 seconds.
 
 ```sh
 aws-keychain config
@@ -54,7 +55,11 @@ aws-keychain config
 #### Example
 
 ```sh
-aws-keychain config --delay 5 # Wait for 5 seconds opening the login page
+aws-keychain config --delay 5 # Wait for 10 + 5 seconds opening the login page
+```
+
+```sh
+aws-keychain config --delay-2fa 1 # Wait for extra 1 second after entering the 2FA code
 ```
 
 ### Completion

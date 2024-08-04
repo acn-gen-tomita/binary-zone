@@ -46,4 +46,6 @@ Follow the steps below. You can choose mulitple AWS accounts.
 1. Click the extension icon on the browser.
 2. Click the setting at the left top corner.
 3. Click `Backup` button.
-4. Click `Download Backup File` button.
+4. Click the **first** `Download Backup File` button.
+
+![Chrome Authenticator](./chrome.png)
