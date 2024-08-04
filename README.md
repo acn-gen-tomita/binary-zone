@@ -10,10 +10,11 @@ aws-keychain register --qr-path <path> --txt-path <path>
 
 ### Login
 
-Login to the AWS account. It waits for 7 seconds before opening the login page.
+Login to the AWS account. It waits for 10 seconds before opening the login page.
+Use `--help` to see the options.
 
 ```sh
-aws-keychain login -n <name> -d <delay_in_seconds>
+aws-keychain login -n <name>
 ```
 
 ### List
